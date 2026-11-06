@@ -1,0 +1,526 @@
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.contener{
+  
+  background-color: rgb(221, 141, 35);
+
+}
+.nav{
+  background-color: aqua;
+  width: 100%;
+  position: fixed;
+  display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+ z-index: 9999;
+
+
+}
+.start{
+   background-color: rgb(93, 93, 246);color: white;
+   width: 28%;
+}
+.buttons{
+  width: 28%;
+  text-align: center;
+ background-color: rgb(93, 93, 246);color: white;
+}
+.links{
+  width: 72%;
+  background-color: rgb(93, 93, 246);color: rgb(248, 150, 208); 
+
+  display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+}
+.links h2{
+  width: 18%;
+  position: relative;
+  text-align: center;
+}
+.links h2::after{
+  content:"";
+  width: 40px;
+  height:2px ;
+  background-color: rgb(93 93 246 );
+  position: absolute;
+  top: 80%;
+  left:0;
+  transition: all 1s;
+
+}
+.links h2:hover::after{
+  width: 100%; background-color: aqua;
+}
+.hero{
+  background-color: rgb(186, 243, 227);
+  display: flex;
+  flex-flow: row wrap;padding: 20px;
+  justify-content: space-between;
+}
+.img-drogn{
+  width: 40%;
+
+  padding-top: 20px;
+  position: relative;
+}
+.small{
+  background-color: #ba87eb;color: white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 30px;
+ 
+  width: 20%;
+  height: 20px;
+  text-align: center;
+}
+.img-drogn img{
+  object-fit: cover;
+  border: solid white 20px;
+  border-radius: 20px;
+  width: 70%;
+
+}
+.info{ 
+   width: 40%;
+  padding-top: 20px;
+    display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+ 
+ position: relative;
+}
+.info h3{
+  background-color: #ba87eb;
+  border-radius: 70px;
+  height: 30px;
+width: 18%;
+ text-align: center;
+}
+.progress{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.maney
+{
+  padding: 20px; 
+  text-align: center;
+ }
+#between{
+  text-decoration: line-through;
+}
+.maney-1{
+  position: absolute;
+  top: 90%;
+
+}.add{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-top: 35px;
+  width: 50%;
+}
+.buttons{
+  background-color:#ba87eb ;color: rgb(1, 9, 16);
+  width: 100%;
+  border-radius: 30px;
+  padding: 16px;
+  text-align: center;
+      margin-top: 20px
+}
+.add{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+#back{
+  background-color: white;
+}
+.buttons{
+  background-color: rgb(250, 94, 224) ;color: rgb(1, 9, 16);
+  width: 80%;
+  border-radius: 30px;
+  padding: 16px;
+  text-align: center;
+      margin-block: 20px;
+      transition: all .5s;
+      
+}
+ 
+  .buttons:hover{
+    width: 100%;
+    ;}
+   .comp{
+    background-color: rgb(243, 248, 248);
+    width: 100%;
+    text-align: center;
+   } 
+.tap  {display: flex;
+  justify-content:center;
+  flex-wrap: wrap;}
+   .tables{
+  background-color: white;
+  width: 90%;
+  border-radius: 50px;
+ 
+  margin-top: 20px;
+   }
+   .item{
+    background-color: rgb(221, 191, 250);
+  }
+   .item-1{
+    background-color: #a85fed;color: white;
+    border-radius: 25px;
+    text-align: center;
+    width: auto;
+    
+   }
+   
+td{
+  width: 10%;
+ padding: 10px;
+ 
+}
+.feed{
+  
+  margin: auto;
+  margin-block: 50px;
+text-align: center;
+ background-color: #06620e;color: white;
+ border-radius: 30px;
+ height: 60px;
+width: 600px;
+}  
+.Customers{
+    background-color: rgb(186, 243, 227);
+  display: flex;
+  flex-flow: row wrap;padding: 20px;
+  justify-content: space-between;
+ 
+ 
+  margin: auto;
+}.end{width: 30%;}
+.rate{
+  position: sticky;
+  top: 15px;
+  /* text-align: center; */
+  width: 100%;
+  border-radius: 20px;background-color: white;
+ 
+}.cap{
+  text-align: center;
+}
+.max{
+  background-color: grey;
+border-radius: 25px;
+  width: 80%;
+  margin: auto;
+  margin: 10px;
+  height: 8px;
+
+}
+.max .fect{
+   background-color: rgb(160, 225, 235);
+width: 80%;
+
+  border-radius: 25px;
+  height: 8px;
+
+}
+.max .fect-4{
+   background-color: rgb(160, 225, 235);
+width: 60%;
+
+  border-radius: 25px;
+  height: 8px;
+
+}
+.max .fect-3{
+   background-color: rgb(160, 225, 235);
+width: 40%;
+
+  border-radius: 25px;
+  height: 8px;
+
+}
+.max .fect-2{
+   background-color: rgb(160, 225, 235);
+width: 20%;
+
+  border-radius: 25px;
+  height: 8px;
+
+}
+.max .fect-1{
+   background-color: rgb(160, 225, 235);
+width: 10%;
+
+  border-radius: 25px;
+  height: 8px;
+
+}
+.would{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  border-radius: 25px;
+  
+}
+.pepole{
+  width: 60%;
+}
+.cord{
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+.cord .ex{
+  display: flex;
+  /* justify-content: space-around; */
+
+}
+.cord .ex img{
+  border-radius: 50%;
+  width: 100px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.ex h1{
+  padding-right: 10px;
+  padding-bottom:  10px; 
+  margin-top: 20px;
+}
+  .Complete {
+  
+ background: #bffdc4;
+   
+}
+.back-more{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+.more{
+width: 20%;
+position: relative;
+background: white;
+margin-top: 30px;
+
+}
+.more img{
+  width: 95%;
+  border-radius: 5px;
+margin: auto;
+
+border: gray solid 8px;
+ 
+ 
+      transition: all .5s;
+      
+}
+.more img:hover{
+  width: 100%;
+}
+.more .totle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.more button{
+  /* position: absolute;
+ top: 95%;;
+  left: 60%; */
+  background-color: #a85fed ;color: white;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.more h3{
+  /* osition: absolute;
+ top: 95%;;
+  right: 60%;p */
+
+  padding: 10px;
+  
+
+}
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #0b1b35,
+    #10294c,
+    #071832
+  );
+  color: #fff;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.25fr 1.1fr 1.1fr 0.7fr;
+  gap: 55px;
+  padding: 55px 5% 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.logo h2 {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: #5746f5;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.brand p {
+  max-width: 340px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #f0f3fb;
+}
+
+
+
+.column h3 {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.column a {
+  display: block;
+  color: #f0f3fb;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 19px;
+  transition: 0.3s;
+}
+
+.column a:hover,
+.footer-bottom a:hover {
+  color: #747986;
+}
+
+.footer-bottom {
+  min-height: 105px;
+  border-top: 1px solid rgba(255,255,255,0.13);
+  padding: 25px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  margin: 0 5px;
+  color: #aab8d0;
+}
+
+.payments {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.paypal,
+.mastercard {
+  height: 49px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paypal {
+  padding: 0 15px;
+  gap: 6px;
+  color: #c2d7e7;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.paypal i {
+  font-size: 22px;
+}
+
+.mastercard {
+  width: 62px;
+}
+
+.mastercard span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #eb001b;
+  margin: 0 -4px;
+}
+
+.mastercard span:last-child {
+  background: #f79e1b;
+  opacity: 0.95;
+}
+
+@media (max-width: 900px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 35px 7%;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 7%;
+  }
+
+  .brand p {
+    max-width: 100%;
+  }
+}
